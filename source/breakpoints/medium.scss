@@ -1,0 +1,12 @@
+@use '../config/variables';
+
+@media screen and (max-width: variables.$bp_medium) {
+    .container {
+        max-width: 80%;
+    }
+
+    .products {
+        grid-template-columns: repeat(2, 48.5%);
+        column-gap: 3%;
+    }
+}

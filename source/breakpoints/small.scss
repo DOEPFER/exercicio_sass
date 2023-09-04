@@ -1,0 +1,11 @@
+@use '../config/variables';
+
+@media screen and (max-width: variables.$bp_small) {
+    .products {
+        display: block;
+    }
+
+    .product-item  {
+        margin-bottom: 32px;
+    }
+}
